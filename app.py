@@ -1,6 +1,6 @@
 from flask import Flask, request
 import threading
-from scripts.main_worker import generate_batch
+from main_worker import generate_batch
 
 app = Flask(__name__)
 
